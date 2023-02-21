@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+	margin: 0;
+}
+.background{
+	position:absolute;
+	top: 0;
+	z-index: -2;
+	background-color: #bdd3ce;
+	width: 100%;
+	height: 1350px;
+}
+#header-bg {
+	background-color: #bdd3ce;
+	width: 100%;
+	height: 75px;
+}
+
+#header{
+	position: absolute;
+	top: 0;
+	height: 75px;
+	display: flex;
+	justify-content: space-evenly;
+	width: 40%;
+	margin-left: 30%;
+	align-items: center;
+	
+}
+
+#header div{
+	padding: 10px;
+	border-radius: 20px;
+	transition-duration: .2s;
+}
+
+#header div:hover {
+	background-color: white;
+}
+.heading{
+	font-family: ubuntu;
+	font-size: 20px;
+
+	
+}
+#name {
+	font-weight: bold;
+	position: absolute;
+	left: -25vw;
+	font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+  width: 225px;
+  min-height: 350px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  transition: 0.2s;
+  position: relative;
+  margin-top: 40px;
+}
+
+
+.card:hover {
+  box-shadow: 4px 8px 16px #2f3132;
+}
+
+.card__top {
+  flex: 0 0 220px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.card__image {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card__image > img {
+  width: 95%;
+  height: 95%;
+  object-fit: contain;
+  transition: 0.2s;
+}
+
+
+.card__image:hover > img {
+  transform: scale(1.1);
+}
+
+
+.card__label {
+  padding: 4px 8px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: #2f3132;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.card__bottom {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto; 
+  padding: 10px;
+}
+
+.card__prices {
+  display: flex;
+  margin-bottom: 10px;
+  flex: 0 0 50%; 
+}
+
+.card__price::after {
+  content: "₽";
+  margin-left: 4px;
+  position: relative;
+}
+
+.card__price--discount {
+  font-weight: 10px;
+  font-size: 22pxpx;
+  color: #414141;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.card__price--discount::before {
+  content: "Со скидкой";
+  font-weight: 400;
+  font-size: 13px;
+  color: #bfbfbf;
+}
+
+.card__price--common {
+  font-weight: 400;
+  font-size: 17px;
+  color: #606060;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-end;
+}
+
+.card__price--common::before {
+  content: "Обычная";
+  font-weight: 400;
+  font-size: 13px;
+  color: #bfbfbf;
+}
+
+.card__title {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
+  color: #414141;
+}
+
+.card__title:hover {
+  color: #00A9F7 ;
+}
+
+.card__add {
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  font-size: 17px;
+  background-color:#2f3132;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #2f3132;
+  border-radius: 4px;
+  cursor: pointer; 
+  transition: 0.2s;
+  margin-top: auto; 
+}
+
+.card__add:hover {
+  border: 1px solid #2f3132;
+  background-color: transparent;
+  color: #2f3132;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  width: 100%;
+  max-width: 1000px;
+  justify-content: center;
+  justify-items: center; 
+  column-gap: 20px;
+  grid-gap: 20px;
+  margin: 0 auto;
+}

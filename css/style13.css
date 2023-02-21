@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+	margin: 0;
+}
+a { text-decoration: none; }
+.background{
+	position:absolute;
+	top: 0;
+	background-image: url("../media/fon.jpg");
+	z-index: -1;
+	background-size: cover;
+	opacity: 0.9;
+	width: 100%;
+	height: 95vh;
+}
+#header-bg {
+	background-color: transition;
+	width: 100%;
+	height: 75px;
+	z-index:-4;
+}
+
+#header {
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: space-evenly;
+	width: 50%;
+	margin-left: 25%;
+	gap: 20px;
+	height: 75px;
+	align-items: center;
+	
+}
+.heading{
+	font-size: 20px;
+	
+}
+#name {
+	font-weight: bold;
+	position: absolute;
+	left: -250px;
+}
+#main{
+	margin-left: 25%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+width: 50%;
+height: 70vh;
+
+}

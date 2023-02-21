@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+	margin: 0;
+}
+.background{
+	position:absolute;
+	top: 0;
+	z-index: -10;
+	background-color: #1c1c1c;
+	width: 100%;
+	height: 100vh;
+}
+#header-bg {
+	background-color: #1c1c1c;
+	width: 100%;
+	height: 75px;
+}
+
+#header{
+	position: absolute;
+	top: 0;
+	height: 75px;
+	display: flex;
+	justify-content: space-evenly;
+	width: 40%;
+	margin-left: 30%;
+	align-items: center;
+	
+}
+
+#header div{
+	padding: 10px;
+	border-radius: 20px;
+	transition-duration: .2s;
+	color: black;
+}
+
+#header div:hover {
+	background-color: white;
+	color:black;
+}
+
+#header div:hover span {
+ color: black;	
+}
+
+.heading{
+	font-size: 20px;
+	color:#ffffff;
+
+	
+}
+
+#name {
+	font-weight: bold;
+	position: absolute;
+	left: -25vw;
+	font-size:30px;
+	font-family: ubuntu;
+}
+
+#i{
+	font-size: 30px;
+	color:#ffffff;
+	font-family: ubuntu;
+}
+#i:hover{
+	color: #00b8fc;
+
+}
+#maice{
+	font-size:30px;
+	color: #ffffff;
+	font-family: ubuntu;
+}
+
+
+#mike{
+	color:#ffffff;
+	font-size:30px;
+	font-family: ubuntu;
+}
+
+#name {
+	font-weight: bold;
+	position: absolute;
+	left: -25vw;
+	font-size:30px;
+	color:#ffffff;
+	font-family: ubuntu;
+}
+
+#main{
+	margin:auto;
+	display:flex;
+	flex-direction: row;
+	width: 100%;
+	height: 700px;
+}
+#slider{
+	justify-content:center;
+	display: flex;
+	align-items: center;
+	width:60%;
+	height: 600px;
+}
+#pricename{
+	margin:auto;
+	margin-left:5%;
+	margin-top:10px;
+	padding-top: 40px;
+	width: 350px;
+	height: 850px;
+	font-family: ubuntu;
+}
+#namecl{
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 3vw;
+	font-family: ubuntu;
+	
+}
+#pricename span:first-child{
+		font-size: 2vw;
+	margin-top:20px;
+	width: 40%;
+	height: 850px;
+}
+.word{
+	color:#f1f1f1;
+	font-size: 1vw;
+	font-family: ubuntu;
+}
+#price{
+	
+	display:flex;
+	padding-top:20px;
+	font-size:  1vw;
+	color: #ffffff;
+	font-family: ubuntu;
+}
+#color{
+	margin-top:20px;
+	color: white;
+	font-size: 1vw;
+	display:flex;
+	margin-bottom: 30px;
+	font-family: ubuntu;
+}
+#button{
+	margin-top:10px;
+	margin-bottom: 10px;
+	margin-left:10%;
+	width: 80%;
+	height:60px;
+	color:black;
+	background-color: #00b8fc;
+	padding: 10px 20px 10px 20px;
+	border: 2px solid #00b8fc;
+	transition-duration: .2s;
+	border-radius: 2px;
+	font-family: ubuntu;
+}
+
+#button:hover {
+	background-color: #1c1c1c;
+	color:#00b8fc;
+	border: 1 px  #00b8fc;
+}
+#bigtext{
+	display:flex;
+	margin-top:5%;
+	color:white;
+	font-size: 1vw;
+	font-family: ubuntu;
+}
+#textsm{
+	color:white;
+	font-size:1vw;
+	font-family: ubuntu;
+}
+#stock{
+	font-size:1vw;
+	display:flex;
+	justify-content: center;
+	color: white;
+	margin-top:20px;
+	font-weight: bold;
+	font-family: ubuntu;
+}
+.opis{
+	display:flex;
+	margin-top: 5%;
+	font-size: 1vw;
+	color: white;
+	font-family: ubuntu;
+}
+#stock1{
+	font-family: ubuntu;
+	font-size:1vw;
+	display:flex;
+	justify-content: center;
+	color: white;
+	font-weight: bold;
+	margin-bottom:20px;
+}
+#main2{
+	margin:auto;
+	flex-direction:column;
+	display:flex;
+	width:100%;
+	height:700px;
+	background-color: #ffffff;
+	align-items:center;
+	z-index:10;
+}
+#bundlesale{
+margin-top:50px;
+	font-family: ubuntu;
+	display:flex;
+	font-size: 2vw;
+	color: black;
+	
+}
+#double{
+	display:flex;
+	flex-direction:space-evenly;
+	margin-top:30px;
+}
+#money{
+	font-family: ubuntu;
+	display:flex;
+	margin-right: 1vw;
+	font-size:3vw;
+}
+#button2{
+	font-family: ubuntu;
+	display:flex;
+	width:250px;
+}
+#butsale{
+	font-family: ubuntu;
+	margin-top: 5px;
+	width: 100%;
+	height:60px;
+	color:black;
+	background-color: #00b8fc;
+	padding: 10px 20px 10px 20px;
+	border: 2px solid #00b8fc;
+	transition-duration: .2s;
+	border-radius: 2px;
+}
+
+#butsale:hover {
+	background-color: transparent;
+	color:#00b8fc ;
+	
+	border: 1 px  #00b8fc;
+}
+#double2{
+	margin-top:50px;
+	font-family: ubuntu;
+	margin-left:-300px;
+	display:flex;
+	flex-direction: row;
+	width:300px;
+	height:200px;
+}
+#first{
+	font-family: ubuntu;
+		font-weight: bold;
+	display:flex;
+	width:100%;
+	height:300px;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+}
+#pic{
+	size: cover;
+	width:300px;
+	height:200px;
+}
+#pic2{
+	size:cover;
+	width:300px;
+	height:200px;
+}
+#second{
+	font-family: ubuntu;
+	font-weight: bold;
+	display:flex;
+	width:100%;
+	height:300px;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+}
+.sp{
+	font-family: ubuntu;
+	display: flex;
+	margin-top:10px;
+	color: gray;
+		font-size:1vw;
+}
+.pricer{
+	font-family: ubuntu;
+	color: gray;
+	font-size:1vw;
+}
+#plus{
+	margin-top:130px;
+	display:flex;
+	font-size:2vw;
+}
+#main3{
+	margin:auto;
+	justify-content:center;
+	align-items: center;
+	display:flex;
+	width:100%;
+	height:1080px;
+}
+#video{
+	display:flex;
+	width:100%;
+	height:100%;
+}

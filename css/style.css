@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+	margin: 0;
+}#header-bg {
+	background-color: #bdd3ce;
+	width: 100%;
+	height: 75px;
+}
+
+#header{
+	position: absolute;
+	top: 0;
+	height: 75px;
+	display: flex;
+	justify-content: space-evenly;
+	width: 40%;
+	margin-left: 30%;
+	align-items: center;
+	
+}
+
+#header div{
+	padding: 2%;
+	border-radius: 20px;
+	transition-duration: .2s;
+}
+
+#header div:hover {
+	background-color: white;
+}
+.heading{
+	font-family: ubuntu;
+	font-size: 1.3vw;
+
+	
+}
+#name {
+	font-family: ubuntu;
+	font-weight: bold;
+	position: absolute;
+	left: -25vw;
+	font-size:2.2vw;
+}
+
+#main{
+	overflow: hidden;
+	background-color: #bdd3ce;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 500px;
+background: rgb(189,211,206);
+background: linear-gradient(180deg, rgba(189,211,206,1) 48%, rgba(255,255,255,1) 100%);
+}
+
+#text{
+	justify-content:center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width:40%;
+}
+.big{
+	font-family: ubuntu;
+	font-weight: bold;
+	color: black;
+	font-size: 45px;
+	margin-left: 15%;
+}
+#small{
+	display: inline-block;
+	font-family: ubuntu;
+	font-size: 25px;
+	color: gray;
+	margin-left: 15%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	
+}
+#button{
+	font-family: ubuntu;
+	margin-left:18%;
+	width: 250px;
+	color:white;
+	background-color: #2f3132;
+	padding: 10px 20px 10px 20px;
+	border: 2px solid black;
+	transition-duration: .2s;
+	border-radius: 2px;
+}
+
+#button:hover {
+	background-color: transparent;
+	color:black;
+}
+#problem{
+	margin-top: 7%;
+	width:100%;
+	height: 400px;
+}
+#head3{
+justify-content:center;
+	margin-left:5%;
+	display: flex;
+	width:50%;
+	height: 400px;
+}
+#i{
+	
+	font-family: ubuntu;
+	font-size:2.2vw;
+}
+
+#maice{
+	font-family: ubuntu;
+	font-size:2.2vw;
+}
+#main2{
+	margin-left: 5%;
+	overflow: hidden;
+	display: flex;
+	width:  90%;
+	height: 1000px;
+}
+#bigcont{
+	overflow: hidden;
+	flex-direction: column;
+	display:flex;
+	width:80%;
+	margin-top: 100px;
+	height: 900px;
+	z-index: -0;
+}
+#pl{
+	display: flex;
+	flex-direction: column;
+	margin-left: 7%;
+	width:87%;
+	height:600px;
+	background-color: #f5f5f5;
+	position: relative;
+	align-items: center;
+}
+#twopeace{
+	margin-left: 0.5%;
+	justify-content:space-evenly;
+	display: flex;
+	 flex-direction: row;
+	width:100%;
+	height:450px;
+}
+#firstpeace{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	background-color: #f5f5f5;
+margin-top: 20px;
+margin-bottom: 10px;
+	width:40%;
+	height:400px;
+}
+#secondpeace{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	background-color: #f5f5f5;
+	height:400px;
+	margin-top:  20px;
+	width:40%;
+}
+#largepeace{
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+	background-color: #f5f5f5;
+	display: flex;
+	margin-top: 100px;
+	height: 900px;
+	width:35%;
+}
+#keyboard{
+	height:410px;
+	width:100%;
+}
+#headphones{
+	margin-top:250px;
+	margin-left: 20px;
+	width: 400px;
+	height: 400px;
+}
+#micer{
+	height:350px;
+	width:500px;
+	
+}
+#ola{
+	width:400px;
+	height: 350px;
+	margin-left: 35px;
+}
+#textcatalog{
+	font-family: ubuntu;
+	font-size: 20px;
+	font-weight: bold;
+}
+#textcatalog1{
+	font-family: ubuntu;
+	font-size: 20px;
+	font-weight: bold;
+}
+#textcatalog2{
+
+	font-family: ubuntu;
+	font-size: 20px;
+	font-weight: bold;
+}
+#textcatalog3{
+
+	font-family: ubuntu;
+	font-size: 20px;
+	font-weight: bold;
+}

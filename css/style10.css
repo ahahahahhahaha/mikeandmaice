@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+	margin: 0;
+}
+a { text-decoration: none; }
+.background{
+	position:absolute;
+	top: 0;
+	background-image: url("../media/fon.jpg");
+	z-index: -1;
+	background-size: cover;
+	opacity: 0.9;
+	width: 100%;
+	height: 700px;
+}
+#header-bg {
+	background-color: #ffffff;
+	width: 100%;
+	height: 75px;
+}
+
+#header{
+	position: absolute;
+	top: 0;
+	height: 75px;
+	display: flex;
+	justify-content: space-evenly;
+	width: 40%;
+	margin-left: 30%;
+	align-items: center;
+	
+}
+
+#header div{
+	padding: 10px;
+	border-radius: 20px;
+	transition-duration: .2s;
+}
+
+#header div:hover {
+	background-color: black;
+	color: #ffffff;
+}
+.heading{
+	font-family: ubuntu;
+	font-size: 1vw;
+
+	
+}
+#name {
+	font-family: ubuntu;
+	font-weight: bold;
+	position: absolute;
+	left: -25vw;
+	font-size:30px;
+}
+
+#main{
+	margin:auto;
+	margin-left: 25%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+width: 50%;
+height: 700px;
+
+}
+
+#text{
+	font-size:3vw;
+	font-weight: bold;
+	color: black;
+	display: flex;
+	margin-bottom: 50px;
+	margin-top:150px;
+	
+}
+
+#log{
+	display:flex;
+	margin-top:5px;
+	display: flex;
+	width: 100px;
+}
+
+
+#login{
+	font-family: ubuntu;
+	
+	width: 100px;
+	height: 60px;
+font-size: 25px;
+border: 1px solid black;
+	top:70%;
+	left: 50%;
+	background-color: black;
+	color: white;
+}
+#login:hover{
+	background-color: transparent;
+	color:black;
+	border: 3px solid black;
+}
+
+
+#regist{
+	font-family: ubuntu;
+	width: 200px;
+	height: 60px;
+font-size: 20px;
+border: 1px solid black;
+	top:70%;
+	left: 50%;
+background-color: transparent;
+border: 1px solid black;
+}
+#regist:hover{
+	border: 3px solid black;
+	font-weight: bold;
+}
+#buton{
+	display: flex;
+	flex-direction: row;
+}
+#reg{
+	margin-left:10px;
+	margin-top:5px;
+	display: flex;
+	width: 200px;
+}
+#main2{
+	justify-content:center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width:100%;
+	height:900px;	
+background-image: url("../media/fonsup.jpg");
+}
+#support{
+	font-family: ubuntu;
+	background-color: white;
+	display: flex;
+	flex-direction:column;
+	width:50%;
+	height:600px;
+	justify-content:center;
+	align-items: center;
+	border-radius: 25px;
+border: 1px solid gray;
+}
+#icon{
+	display:flex;
+	margin-bottom:10px;
+	
+	
+	
+}
+.bigtext{
+	font-family: ubuntu;
+	font-size:2.3vw;
+	color:black;
+	font-weight: bold;
+	
+}
+.opis{
+	font-family: ubuntu;
+	display:flex;
+	font-size:2.5vw;
+	color:black;
+	margin-bottom:20px;
+	font-weight: bold;
+	
+}
+#opis{
+	font-family: ubuntu;
+	display:flex;
+	font-size:2.5vw;
+	color:black;
+	font-weight: bold;
+}
+.rows{
+	font-family: ubuntu;
+	font-size: 2.5vw;
+	colot:black;
+	font-weight:100;
+	display:flex;
+	margin-bottom:10px;
+
+}
+.rows:hover{
+	font-weight:bold;
+	color:gray;
+}
+#footer{
+	display:flex;
+	flex-direction:row;
+		margin-top: 0px;
+	border: 1px solid black;
+	width: 100%;
+	height: 80vh;
+	background-color: #252a2c;
+}
+#text{
+	font-family: ubuntu;
+	margin-top:30%;
+	display:flex;
+	flex-direction: row;
+	width:40%;
+	height:10vh;
+	margin-left: 2%;
+	
+	
+}
+#glav{
+	font-family: ubuntu;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-evenly;
+	border: 1px solid white;
+	width:100%;
+	height:30vh;
+}
+.glav1{
+	font-family: ubuntu;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.1vw;
+	color: white;
+	width:10%;
+	border: 1px solid white;
+	height:100px;
+}
+#rows{
+	font-family: ubuntu;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	flex-direction: column;
+	
+	border:1px solid white;
+	width: 100px;
+	height:100px;
+}
+
+#zagl{
+	font-family: ubuntu;
+	background-color: gray-white;
+	height:50px;
+	width:100%;
+	display:flex;
+	margin-top:160px;
+	z-index:100000;
+}

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+	margin: 0;
+}
+a { text-decoration: none; }
+.background{
+	position:absolute;
+	top: 0;
+	background-image: url("../media/fon.jpg");
+	z-index: -5;
+	background-size: cover;
+	opacity: 0.9;
+	width: 100%;
+	height: 110vh;
+}
+#header-bg {
+	background-color: #ffffff;
+	width: 100%;
+	height: 75px;
+}
+
+#header{
+	position: absolute;
+	top: 0;
+	height: 75px;
+	display: flex;
+	justify-content: space-evenly;
+	width: 40%;
+	margin-left: 30%;
+	align-items: center;
+	
+}
+
+#header div{
+	padding: 10px;
+	border-radius: 20px;
+	transition-duration: .2s;
+}
+
+#header div:hover {
+	background-color: black;
+	color: #ffffff;
+}
+.heading{
+	font-family: ubuntu;
+	font-size: 1.5vw;
+
+	
+}
+#name {
+	font-family: ubuntu;
+	font-weight: bold;
+	position: absolute;
+	left: -25vw;
+	font-size:2vw;
+}
+#main{
+	margin-top:5vh;
+	margin-left:25%;
+	border: 2px solid black;
+	width: 50%;
+	height: 600px;
+	background-color:white;
+	z-index:1;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	flex-direction: column;
+	-webkit-box-shadow: 21px 38px 10px 11px rgba(0, 10, 17, 0.34);
+-moz-box-shadow: 21px 38px 10px 11px rgba(0, 10, 17, 0.34);
+box-shadow: 21px 38px 10px 11px rgba(0, 10, 17, 0.34);
+}
+#bigtext{
+	font-family: ubuntu;
+	display: flex;
+	margin-top: 30px;
+	font-family: ubuntu;
+	font-size: 30px;
+}
+#photo{
+	display: flex;
+	width:20%;
+	z-index:1000;
+	height:20vh;
+align-items: center;
+justify-content: center;
+}
+#gif{
+	width: 100px;
+	height:100px;
+}
+#bigcont{
+	align-items: center;
+	font-family: ubuntu;
+	flex-direction: column;
+	z-index:100;
+	display: flex;
+	margin-top: 15px;
+	margin-left: 10px;
+	width: 80%;
+	height: 50vh;
+}
+.mp{
+	display:flex;
+	margin-top:10px;
+	font-family: ubuntu;
+	font-size:25px;
+}
+.dan{
+	display:flex;
+	margin-top: 7px;
+	font-family: ubuntu;
+	font-size:20px;
+}
+.inp{
+	height:20px;
+	font-family: ubuntu;
+	display:flex;
+	width:50%;
+	
+}
+#number{
+	display:flex;
+	margin-top:20px;
+	font-size:25px;
+}
+#button{
+	font-family: ubuntu;
+	width: 100%;
+	color:white;
+	background-color: #2f3132;
+	padding: 10px 20px 10px 20px;
+	border: 2px solid black;
+	transition-duration: .2s;
+	border-radius: 2px;
+}
+
+#button:hover {
+	background-color: transparent;
+	color:black;
+}
+#but{
+	margin-top:10px;
+	display:flex;
+}
+
